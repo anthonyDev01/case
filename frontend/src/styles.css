@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  --primary: #FF6200;
+  --primary-hover: #E55800;
+  --bg-color: #f4f6f8;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --surface: #ffffff;
+  --error: #f44336;
+  --success: #4caf50;
+  --border: #e0e0e0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.btn-primary:active {
+  background-color: var(--primary-hover) !important;
+}
+
+.card-container {
+  background: var(--surface);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
