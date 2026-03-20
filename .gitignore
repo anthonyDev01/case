@@ -1,0 +1,87 @@
+# ===========================
+# PYTHON / FLASK (Backend)
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# ===========================
+# ANGULAR / NODE (Frontend)
+# ===========================
+node_modules/
+dist/
+.angular/
+
+# Environment files
+src/environments/environment.prod.ts
+
+# Cache
+.npm
+.eslintcache
+
+# Testing
+coverage/
+
+# ===========================
+# DOCKER
+# ===========================
+# Não ignorar docker-compose.yml e Dockerfiles
+
+# ===========================
+# IDEs e Editores
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# SISTEMA OPERACIONAL
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V8
+.Trashes
+ehthumbs.db
+Thumbs.db
