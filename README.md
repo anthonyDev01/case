@@ -49,11 +49,18 @@ cd <nome-da-pasta>
 ```
 
 **2. Crie o arquivo `.env` na raiz do projeto:**
+
+Windows (PowerShell):
+```powershell
+Copy-Item .env.example .env
+```
+
+Linux/Mac:
 ```bash
 cp backend/.env.example backend/.env
 ```
 
-O `.env` já vem configurado para o Docker. Não é necessário alterar nada.
+Abra o `.env` criado e preencha os valores das variáveis antes de continuar.
 
 **3. Suba todos os serviços com um único comando:**
 ```bash
